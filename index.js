@@ -20,6 +20,8 @@ nextISSTimesForMyLocation((error, passTimes) => {
   printPassTimes(passTimes);
 });
 
+module.exports = { printPassTimes }
+
 // fetchISSFlyOverTimes({ latitude: '51.3062', longitude: '-114.0394 '}, (error, response) => {
 //   if (error) {
 //     console.log("It didn't work!" , error);
